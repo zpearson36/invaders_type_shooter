@@ -3,6 +3,7 @@
     {"id":{"name":"oCollidable","path":"objects/oCollidable/oCollidable.yy",},"order":3,},
     {"id":{"name":"macros","path":"scripts/macros/macros.yy",},"order":0,},
     {"id":{"name":"sEnemy","path":"sprites/sEnemy/sEnemy.yy",},"order":3,},
+    {"id":{"name":"utils","path":"scripts/utils/utils.yy",},"order":1,},
     {"id":{"name":"oEnemySpawner","path":"objects/oEnemySpawner/oEnemySpawner.yy",},"order":6,},
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},"order":0,},
     {"id":{"name":"oController","path":"objects/oController/oController.yy",},"order":1,},

@@ -6,5 +6,11 @@ x += xspd
 
 if(global.move_action)
 {
-	instance_create_layer(x, y - (sprite_height / 2) - (sprite_get_height(sShot) / 2) - 1, layer, oShot)
+	var shot = instance_create_layer(
+	               x,
+				   y - (sprite_height / 2) - (sprite_get_height(sShot) / 2) - 1,
+				   layer,
+				   oShot
+			   )
+	shot.damage = shot_damage
 }
