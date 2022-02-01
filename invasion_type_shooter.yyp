@@ -1,9 +1,14 @@
 {
   "resources": [
+    {"id":{"name":"oCollidable","path":"objects/oCollidable/oCollidable.yy",},"order":3,},
     {"id":{"name":"macros","path":"scripts/macros/macros.yy",},"order":0,},
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},"order":0,},
     {"id":{"name":"oController","path":"objects/oController/oController.yy",},"order":1,},
+    {"id":{"name":"sShot","path":"sprites/sShot/sShot.yy",},"order":1,},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"order":0,},
+    {"id":{"name":"oShotTerminus","path":"objects/oShotTerminus/oShotTerminus.yy",},"order":4,},
+    {"id":{"name":"oShot","path":"objects/oShot/oShot.yy",},"order":2,},
+    {"id":{"name":"sTerminus","path":"sprites/sTerminus/sTerminus.yy",},"order":2,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
