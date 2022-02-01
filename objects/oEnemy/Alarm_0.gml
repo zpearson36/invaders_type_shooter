@@ -1,3 +1,4 @@
 /// @description Insert description here
 // You can write your code in this editor
-y -= SPD * 5
+xspd = -xspd
+alarm[0] = irandom_range(60, 180)
