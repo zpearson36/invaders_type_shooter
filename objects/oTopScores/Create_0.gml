@@ -23,3 +23,18 @@ menu[0].action = function(){room_goto(rMainMenu)}
 
 menu_items = array_length_1d(menu)
 menu_cursor = 2
+
+score_strings = []
+index_array = []
+file = file_text_open_read(working_directory + "TopScores.txt");
+if(file != -1)
+{
+	while (!file_text_eof(file))
+	{
+	    array_push(score_strings, file_text_readln(file))
+	}
+	var tmp = []
+	array_copy(tmp, 0, score_strings, 0, array_length(score_strings))
+	index_array = sort_high_scores(tmp)
+}
+file_text_close(file)
